@@ -16,118 +16,116 @@
 
 </head>
 
-<h1 id="top">Weslley Rocha</h1>
+<p>WR</p>
 
-<body></body>
+<body>
 
-<nav>
-    <h3>Navegador</h3>
-    <ul>
-        <li><b><a href="index.html">Home</a></b></li>
-        <li><b><a href="sobre.html">Sobre</a></b></li>
-        <li><b><a href="historicoprofissional.html">Histórico Profissional</a></b></li>
-    </ul>
-</nav>
+    <nav>
+        <h3>Navegador</h3>
+        <ul>
+            <li><b><a href="index.html">Home</a></b></li>
+            <li><b><a href="sobre.html">Sobre</a></b></li>
+            <li><b><a href="historicoprofissional.html">Histórico Profissional</a></b></li>
+        </ul>
+    </nav>
 
-<hr>
+    <hr>
 
-<h2>FORMULÁRIO DE CONTATO</h2>
+    <h1>FORMULÁRIO DE CONTATO</h1>
 
-<fieldset>
-    <legend>Contato</legend>
-    <form action="#" method="POST">
+    <fieldset>
+        <legend>Contato</legend>
+        <form action="#" method="POST">
 
-        <br>
-        <label for="#">Nome:<br>
+
+            <label for="#">Nome:<br>
             <input type="text" name="nome">
         </label><br>
 
-        <label for="#">E-mail:<br>
+            <label for="#">E-mail:<br>
             <input type="email" name="email">
         </label><br>
 
-        <label for="#">Telefone:<br>
+            <label for="#">Telefone:<br>
             <input type="text" name="telefone">
         </label><br>
 
-        <br>
-        <p><b>Avalie noss site:</b></p>
-        <ol>
-            <li>Que nota você dá pela <b>Navegabilidade?</b></li>
-            <input type="radio" name="notaNavegab" value="0" checked="checked"> Nota 0
-            <input type="radio" name="notaNavegab" value="05" checked="checked"> Nota 05
-            <input type="radio" name="notaNavegab" value="10" checked="checked"> Nota 10
             <br>
-            <br>
-            <li>Que nota você dá pelo <b>Design?</b></li>
-            <input type="radio" name="notaDesign" value="0" checked="checked"> Nota 0
-            <input type="radio" name="notaDesign" value="05" checked="checked"> Nota 05
-            <input type="radio" name="notaDesign" value="10" checked="checked"> Nota 10
-            <br>
-            <br>
-            <li>Que nota você dá pelo <b>Conteúdo?</b></li>
-            <br>
-            <input type="radio" name="notaConteudo" value="0" checked="checked"> Nota 0
-            <input type="radio" name="notaConteudo" value="05" checked="checked"> Nota 05
-        </ol>
-        <br>
+            <h2>Avalie noss site:</h2>
 
-        <p><b>Gostaria de agendar contato para resposta de seu pedido em que período do dia?</b></p><br>
-        <b><label for="dataContato">Em que dia?</label></b>
-        <input type="date" name="dataContato">
-        <input type="submit" value="Salvar">
+            <ol>
+                <li>Que nota você dá pela <b>Navegabilidade?</b></li>
+                <input type="radio" name="notaNavegab" value="0" checked="checked"> Nota 0
+                <input type="radio" name="notaNavegab" value="05" checked="checked"> Nota 05
+                <input type="radio" name="notaNavegab" value="10" checked="checked"> Nota 10
+                <br>
+                <br>
+                <li>Que nota você dá pelo <b>Design?</b></li>
+                <input type="radio" name="notaDesign" value="0" checked="checked"> Nota 0
+                <input type="radio" name="notaDesign" value="05" checked="checked"> Nota 05
+                <input type="radio" name="notaDesign" value="10" checked="checked"> Nota 10
+                <br>
+                <br>
+                <li>Que nota você dá pelo <b>Conteúdo?</b></li>
+                <input type="radio" name="notaConteudo" value="0" checked="checked"> Nota 0
+                <input type="radio" name="notaConteudo" value="05" checked="checked"> Nota 05
+            </ol>
+            <br>
+            <h2>Gostaria de agendar contato para resposta de seu pedido em que período do dia?</h2>
 
-        <br>
-        <br>
-        <input type="checkbox" name="checAgendar" value="manha" checked="checked"> Manhã
-        <input type="checkbox" name="checAgendar" value="tarde"> Tarde
-        <input type="checkbox" name="checAgendar" value="tarde"> Noite
 
-        <p><b>O que gostaria de nos contar?</p></b>
+            <b><label for="dataContato">Em que dia?</label></b>
+            <input type="date" name="dataContato">
+            <input type="submit" value="Salvar">
+            <br>
+            <input type="checkbox" name="checAgendar" value="manha" checked="checked"> Manhã
+            <input type="checkbox" name="checAgendar" value="tarde"> Tarde
+            <input type="checkbox" name="checAgendar" value="tarde"> Noite
+
+            <br>
+            <h2>O que gostaria de nos contar?</h2>
+
             <select name="textoContato" id="textoContato">
             <option value="elogio">Elogio</option>
             <option value="sugestao">Sugestão</option>
             <option value="reclamacao">Reclamação</option>
-        </select>
+                </select>
 
-            <br>
-            <br>
             <textarea name="comentario" id="comentario" cols="50" rows="10">Digite aqui..</textarea>
 
-            <p><b>Gostaria de anexar algum documento à sua solicitação?</b></p>
+            <h2>Gostaria de anexar algum documento à sua solicitação?</h2>
+
             <input type="file" name="anexoContato1"><br><br>
             <input type="submit" value="Upload">
 
-    </form>
-</fieldset>
-
-<br>
-<br>
-<br>
-<hr>
-<footer>
-    <fieldset>
-        <legend>
-            <p><b>Registre seu e-mail para ficar atento as novidades.</b></p>
-            <input type="text" name="email">
-            <input type="submit" name="subscribe" value="Inscreva-se">
-        </legend>
+        </form>
     </fieldset>
 
-    <ul>
-        <li>Weslley Rocha<b> &copy</b></li>
-        <li> Fone / Whatssap: <a href="https://api.whatsapp.com/send?phone=5519974207424&text=Ol%C3%A1%2C%20Tudo%20bem%3F">(19)
+
+    <hr>
+    <footer>
+        <fieldset>
+            <legend>
+                <p><b>Registre seu e-mail para ficar atento as novidades.</b></p>
+                <input type="text" name="email">
+                <input type="submit" name="subscribe" value="Inscreva-se">
+            </legend>
+        </fieldset>
+
+        <ul>
+            <li>Weslley Rocha<b> &copy</b></li>
+            <li> Fone / Whatssap: <a href="https://api.whatsapp.com/send?phone=5519974207424&text=Ol%C3%A1%2C%20Tudo%20bem%3F">(19)
                 97420-7424</a> </li>
-        <li>E-mail: <a href="malto:weslley.rocha87@gmail.com">weslley.rocha87@gmail.com</a></li>
-        <li>Sumaré-SP, Brasil</li>
-        <li>Facebook: <a href="https://www.facebook.com/weslley.rocha87" target="_brank">Facebook</a></li>
-    </ul>
+            <li>E-mail: <a href="malto:weslley.rocha87@gmail.com">weslley.rocha87@gmail.com</a></li>
+            <li>Sumaré-SP, Brasil</li>
+            <li>Facebook: <a href="https://www.facebook.com/weslley.rocha87" target="_brank">Facebook</a></li>
+        </ul>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117661.50614917249!2d-47.331342439777224!3d-22.842372631338467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bcfd64c3182d%3A0x8e575af90f766b31!2zU3VtYXLDqSwgU1A!5e0!3m2!1spt-BR!2sbr!4v1594220082941!5m2!1spt-BR!2sbr"
-        width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117661.50614917249!2d-47.331342439777224!3d-22.842372631338467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bcfd64c3182d%3A0x8e575af90f766b31!2zU3VtYXLDqSwgU1A!5e0!3m2!1spt-BR!2sbr!4v1594220082941!5m2!1spt-BR!2sbr"
+            width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-</footer>
-<hr>
+    </footer>
+    <hr>
 
 </body>
 
