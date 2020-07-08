@@ -27,97 +27,89 @@
 
 <fieldset>
     <legend>Contato</legend>
-    <br>
-    <label for="#">Nome:<br>
-        <input type="text" name="nome">
-    </label><br>
+    <form action="#" method="POST">
 
-    <label for="">E-mail:<br>
-        <input type="email" name="email">
-    </label><br>
-
-    <label for="">Telefone:<br>
-        <input type="text" name="telefone">
-    </label><br>
-
-    <br>
-    <p><b>Avalie noss site:</b></p>
-    <ol>
-        <li>Que nota você dá pela <b>Navegabilidade?</b></li>
         <br>
-        <form action="#">
+        <label for="#">Nome:<br>
+            <input type="text" name="nome">
+        </label><br>
+
+        <label for="#">E-mail:<br>
+            <input type="email" name="email">
+        </label><br>
+
+        <label for="#">Telefone:<br>
+            <input type="text" name="telefone">
+        </label><br>
+
+        <br>
+        <p><b>Avalie noss site:</b></p>
+        <ol>
+            <li>Que nota você dá pela <b>Navegabilidade?</b></li>
             <input type="radio" name="notaNavegab" value="0" checked="checked"> Nota 0
             <input type="radio" name="notaNavegab" value="05" checked="checked"> Nota 05
             <input type="radio" name="notaNavegab" value="10" checked="checked"> Nota 10
-        </form>
-        <br>
-
-        <li>Que nota você dá pelo <b>Design?</b></li>
-        <br>
-        <form action="#">
+            <br>
+            <br>
+            <li>Que nota você dá pelo <b>Design?</b></li>
             <input type="radio" name="notaDesign" value="0" checked="checked"> Nota 0
             <input type="radio" name="notaDesign" value="05" checked="checked"> Nota 05
             <input type="radio" name="notaDesign" value="10" checked="checked"> Nota 10
-        </form>
-
-        <br>
-
-        <li>Que nota você dá pelo <b>Conteúdo?</b></li>
-        <br>
-        <form action="#">
+            <br>
+            <br>
+            <li>Que nota você dá pelo <b>Conteúdo?</b></li>
+            <br>
             <input type="radio" name="notaConteudo" value="0" checked="checked"> Nota 0
             <input type="radio" name="notaConteudo" value="05" checked="checked"> Nota 05
-            <input type="radio" name="notaConteudo" value="10" checked="checked"> Nota 10
-        </form>
-    </ol>
+        </ol>
+        <br>
 
-    <form action="#">
         <p><b>Gostaria de agendar contato para resposta de seu pedido em que período do dia?</b></p><br>
+        <b><label for="dataContato">Em que dia?</label></b>
+        <input type="date" name="dataContato">
+        <input type="submit" value="Salvar">
+        
+        <br>
+        <br>
         <input type="checkbox" name="checAgendar" value="manha" checked="checked"> Manhã
         <input type="checkbox" name="checAgendar" value="tarde"> Tarde
         <input type="checkbox" name="checAgendar" value="tarde"> Noite
+
+        <p><b>O que gostaria de nos contar?</p></b>      
+        <select name="textoContato" id="textoContato">            
+            <option value="elogio">Elogio</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+        </select>
+        
+        <br>
+        <br>
+        <textarea name="comentario" id="comentario" cols="50" rows="10">Digite aqui..</textarea>
+
+        <p><b>Gostaria de anexar algum documento à sua solicitação?</b></p>
+        <input type="file" name="anexoContato1"><br><br>
+        <input type="submit" value="Upload">
+
     </form>
-
-  <form action="#">
-<p><b>Digite aqui sua informação ou solicitação:</p></b>
-<textarea name="comentario" id="comentario" cols="50" rows="10">
-    Digite aqui....
-</textarea>
-
-
-  </form>
-
-
-
 </fieldset>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <hr>
 <footer>
+
+    <fieldset>
+        <legend>
+            <p><b>Registre seu e-mail para ficar atento as novidades.</b></p>
+            <input type="text" name="email">
+            <input type="submit" name="subscribe" value="Inscreva-se">
+
+        </legend>
+
+    </fieldset>
+
+
     <ul>
         <li>Weslley Rocha</li>
         <li> Fone / Whatssap: <a
