@@ -1,4 +1,5 @@
-    /*Início Efeito nav*/    
+    /*Início Efeito nav*/
+    
     a:visited {
         color: #191970;
     }
@@ -12,18 +13,17 @@
     .logotipo {
         font-size: 45px;
         font-weight: bold;
-        text-align: center;        
+        text-align: center;
         background-color: #1C1C1C;
         color: floralwhite;
     }
-
-    #logo{
+    
+    #logo {
         margin-top: 10px;
-        width: 200px; 
+        width: 200px;
         height: 70px;
         margin-left: auto;
         margin-right: auto;
-
     }
     
     .containerNav {
@@ -34,7 +34,7 @@
         margin-bottom: 20px;
     }
     
-   li {
+    li {
         display: inline;
         margin-left: 15px;
     }
@@ -52,6 +52,7 @@
     
     #txtHome {
         text-align: justify;
+        font-size: 18px;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -76,53 +77,36 @@
     
     a {
         text-decoration: none;
-    }   
-
+    }
     
-    .BoxImg {
-        width: 400px; 
-        height: 408px;
-        /*margin-left: auto;       
-        margin-right: auto; */      
-        padding: 5px;
-        margin-top: 5px;  
-        margin-bottom: 5px;      
-    }
-
-    img {
-        width: 400px;
+    .tbimg {
+        width: 370px;
         height: 204px;
+        margin-left: 5px;
     }
-
-    .imgLeft{
-        margin-left: 100%px;
-    }
-
-    .imgRight{
-        margin-right: 50%;
-    }
-
     
     footer {
+        height: 200px;
         margin-top: 50px;
         margin-bottom: 20px;
         background-color: #1C1C1C;
         margin-top: 20px;
     }
-
-    footer>p{
-        text-align: center;
+    
+    td>p {
+        margin-left: 20px;
+        margin-top: 10px;
+        text-align: right;
+        color: gainsboro;
+        width: 600px;
+    }
+    
+    .linkfooter {
         color: gainsboro;
     }
-
-    .linkfooter{
-        color: gainsboro;
-    }
-
+    
     iframe {
-        width: 200px; 
+        width: 200px;
         height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-            }
-
+        margin-right: -200px;
+    }
