@@ -1,177 +1,182 @@
-        /*Início Efeito nav*/
-        
-        a:hover {
-            color: #0000FF;
-            text-decoration: none;
-        }
-        /*Fim Efeito nav*/
-        
-        .logotipo {
-            text-align: center;
-            background-color: #1C1C1C;
-            color: floralwhite;
-        }
-        
-        #logo {
-            margin-top: 10px;
-            width: 200px;
-            height: 70px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 7px;
-        }
-        
-        .bannerHome {
-            margin-top: 10px;
-            margin-bottom: 0px;
-            border-radius: 5px;
-            width: 100%;
-            height: auto;
-        }
-        
-        .containerNav {
-            font-size: 15px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        li {
-            display: inline;
-            margin-left: 15px;
-        }
-        
-        .hr {
-            margin-top: 10px;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        
-        .titulosH1 {
-            text-align: center;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        
-        #txtHome {
-            text-align: justify;
-            font-size: 18px;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        
-        .ptxtHome {
-            margin-top: 15px;
-        }
-        
-        #linkSaibaMais {
-            text-decoration: underline;
-            text-align: right;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        
-        h1,
-        h2,
-        p {
-            color: #191970;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        .tbimg {
-            width: 370px;
-            height: 204px;
-            margin-left: 5px;
-            border-radius: 5px;
-        }
-        
-        table {
-            margin-top: 30px;
-        }
-        
-        #linkSaibaMais {
-            margin-top: 25px;
-        }
-        
-        footer {
-            height: 170px;
-            background-color: #1C1C1C;
-            text-align: center;
-        }
-        
-        footer>p {
-            color: gainsboro;
-            padding: 10px;
-        }
-        
-        .linkfooter {
-            color: gainsboro;
-        }
-        
-        #botao {
-            margin-top: 30px;
-            margin-left: 600px;
-            background-color: #191970;
-            border: 15px solid #191970;
-            border-radius: 5px;
-            text-align: center;
-        }
-        
-        #estilobotao {
-            color: lavenderblush;
-        }
-        
-        #botao>a:hover {
-            color: #0000FF;
-        }
-        /* Estilo Página Sobre*/
-        
-        #fotoperfil {
-            width: 200px;
-            height: 200px;
-            margin-left: 40%;
-            margin-top: 2px;
-            border-radius: 5px;
-        }
-        
-        #dadospessoais {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-            width: 100%;
-            height: auto;
-            font-size: 20px;
-        }
-        
-        #profAtual {
-            margin-top: 10px;
-        }
-        
-        table {
-            width: 100%;
-        }
-        
-        #descricao {
-            margin-top: 20px;
-            text-align: center;
-        }
-        
-        #descricao>p {
-            font-size: 25px;
-        }
-        
-        #profAtual {
-            margin-bottom: 20px;
-        }
-        
-        #boxTxtSobre {
-            text-align: left;
-            padding: 5px;
-        }
-        
-        #boxTxtSobre>p {
-            padding: 10px;
-        }
+ /*Início Efeito nav*/
+ 
+ a:hover {
+     color: #0000FF;
+     text-decoration: none;
+ }
+ /*Fim Efeito nav*/
+ 
+ .logotipo {
+     text-align: center;
+     background-color: #1C1C1C;
+     color: floralwhite;
+ }
+ 
+ #logo {
+     margin-top: 10px;
+     width: 200px;
+     height: 70px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 7px;
+ }
+ 
+ .bannerHome {
+     margin-top: 10px;
+     margin-bottom: 0px;
+     border-radius: 5px;
+     width: 100%;
+     height: auto;
+ }
+ 
+ .containerNav {
+     font-size: 15px;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ 
+ li {
+     display: inline;
+     margin-left: 15px;
+ }
+ 
+ .hr {
+     margin-top: 10px;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ 
+ .titulosH1 {
+     text-align: center;
+     margin-top: 15px;
+     margin-bottom: 15px;
+ }
+ 
+ #txtHome {
+     text-align: justify;
+     font-size: 18px;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ 
+ .ptxtHome {
+     margin-top: 15px;
+ }
+ 
+ #linkSaibaMais {
+     text-decoration: underline;
+     text-align: right;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ h1,
+ h2,
+ p {
+     color: #191970;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .tbimg {
+     width: 370px;
+     height: 204px;
+     margin-left: 5px;
+     border-radius: 5px;
+ }
+ 
+ table {
+     margin-top: 30px;
+ }
+ 
+ #linkSaibaMais {
+     margin-top: 25px;
+ }
+ 
+ footer {
+     height: 170px;
+     background-color: #1C1C1C;
+     text-align: center;
+ }
+ 
+ footer>p {
+     color: gainsboro;
+     padding: 10px;
+ }
+ 
+ .linkfooter {
+     color: gainsboro;
+ }
+ 
+ #botao {
+     margin-top: 30px;
+     margin-left: 600px;
+     background-color: #191970;
+     border: 15px solid #191970;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #estilobotao {
+     color: lavenderblush;
+ }
+ 
+ #botao>a:hover {
+     color: #0000FF;
+ }
+ /* Estilo Página Sobre*/
+ 
+ #dadospessoais {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+     width: 100%;
+     height: auto;
+     font-size: 20px;
+ }
+ 
+ #boxFotoPerfil {
+     width: 200px;
+     margin-left: 40%;
+ }
+ 
+ .imgPerfil {
+     margin-top: 10px;
+     margin-bottom: 0px;
+     border-radius: 100px;
+     height: auto;
+     width: 100%;
+ }
+ 
+ #profAtual {
+     margin-top: 10px;
+ }
+ 
+ table {
+     width: 100%;
+ }
+ 
+ #descricao {
+     margin-top: 20px;
+     text-align: center;
+ }
+ 
+ #descricao>p {
+     font-size: 25px;
+ }
+ 
+ #profAtual {
+     margin-bottom: 20px;
+ }
+ 
+ #boxTxtSobre {
+     text-align: left;
+     padding: 5px;
+ }
+ 
+ #boxTxtSobre>p {
+     padding: 10px;
+ }
