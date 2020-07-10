@@ -1,9 +1,5 @@
     /*Início Efeito nav*/
     
-    a:visited {
-        color: #191970;
-    }
-    
     a:hover {
         color: #0000FF;
         text-decoration: none;
@@ -126,5 +122,9 @@
     
     #estilobotao {
         color: lavenderblush;
+    }
+    
+    #botao>a:hover {
+        color: #0000FF;
     }
     /* Estilo Página Bota*/
