@@ -113,7 +113,7 @@
      
      #botao {
          margin-top: 30px;
-         margin-left: 600px;
+         margin-left: 400px;
          background-color: #191970;
          border: 15px solid #191970;
          border-radius: 5px;
@@ -139,6 +139,7 @@
      }
      
      #boxFotoPerfil {
+         width: 940px;
          align-content: center;
      }
      
@@ -148,7 +149,7 @@
          border-radius: 100px;
          height: auto;
          width: 20%;
-         margin-left: 40%;
+         margin-left: 35%;
      }
      
      #profAtual {
