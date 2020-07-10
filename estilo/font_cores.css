@@ -26,6 +26,12 @@
         margin-right: auto;
     }
     
+    #bannerHome {
+        width: 900px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
     .containerNav {
         font-size: 15px;
         font-weight: bold;
@@ -40,14 +46,15 @@
     }
     
     .hr {
+        margin-top: 10px;
         margin-left: 10%;
         margin-right: 10%;
     }
     
     .titulosH1 {
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     
     #txtHome {
@@ -85,28 +92,25 @@
         margin-left: 5px;
     }
     
-    footer {
-        height: 200px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-        background-color: #1C1C1C;
-        margin-top: 20px;
+    table {
+        margin-top: 30px;
     }
     
-    td>p {
-        margin-left: 20px;
-        margin-top: 10px;
-        text-align: right;
+    #linkSaibaMais {
+        margin-top: 25px;
+    }
+    
+    footer {
+        height: 170px;
+        background-color: #1C1C1C;
+        text-align: center;
+    }
+    
+    footer>p {
         color: gainsboro;
-        width: 600px;
+        padding: 10px;
     }
     
     .linkfooter {
         color: gainsboro;
-    }
-    
-    iframe {
-        width: 200px;
-        height: 150px;
-        margin-right: -200px;
     }
