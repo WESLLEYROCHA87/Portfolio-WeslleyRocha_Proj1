@@ -114,9 +114,17 @@
     .linkfooter {
         color: gainsboro;
     }
-    /* Estilo Página Bota*/
     
     #botao {
-        margin-top: 50px;
-        margin-left: 800px;
+        margin-top: 30px;
+        margin-left: 600px;
+        background-color: #191970;
+        border: 15px solid #191970;
+        border-radius: 5px;
+        text-align: center;
     }
+    
+    #estilobotao {
+        color: lavenderblush;
+    }
+    /* Estilo Página Bota*/
