@@ -1,201 +1,231 @@
-     /*Início Efeito nav*/
-     
-     a:hover {
-         color: #0000FF;
-         text-decoration: none;
-     }
-     /*Fim Efeito nav*/
-     
-     .logotipo {
-         text-align: center;
-         background-color: #1C1C1C;
-         color: floralwhite;
-     }
-     
-     #logo {
-         margin-top: 10px;
-         width: 200px;
-         height: 70px;
-         margin-left: auto;
-         margin-right: auto;
-         margin-bottom: 7px;
-     }
-     
-     .container {
-         position: relative;
-         width: 100%;
-         height: auto;
-         background-color: brown;
-     }
-     
-     .bannerHome {
-         border-radius: 5px;
-         width: 100%;
-         height: auto;
-         position: absolute;
-         top: 50%;
-     }
-     
-     .containerNav {
-         font-size: 15px;
-         font-weight: bold;
-         text-align: center;
-         margin-bottom: 20px;
-     }
-     
-     li {
-         display: inline;
-         margin-left: 15px;
-     }
-     
-     .hr {
-         margin-top: 10px;
-         margin-left: 10%;
-         margin-right: 10%;
-         margin-bottom: 20px;
-     }
-     
-     .titulosH1home {
-         text-align: center;
-         margin-top: 55%;
-         margin-bottom: px;
-     }
-     
-     .titulosH1 {
-         text-align: center;
-         margin-top: 15px;
-         margin-bottom: 15px;
-     }
-     
-     #txtHome {
-         text-align: justify;
-         font-size: 20px;
-         margin-left: 10%;
-         margin-right: 10%;
-         margin-top: 30px;
-     }
-     
-     .ptxtHome {
-         margin-top: 15px;
-     }
-     
-     #linkSaibaMais {
-         text-decoration: underline;
-         text-align: right;
-         margin-top: 10px;
-         margin-bottom: 10px;
-     }
-     
-     h1,
-     h2,
-     p {
-         color: #191970;
-     }
-     
-     a {
-         text-decoration: none;
-     }
-     
-     .tbimg {
-         width: 370px;
-         height: 204px;
-         margin-left: 5px;
-         border-radius: 5px;
-     }
-     
-     table {
-         margin-top: 30px;
-     }
-     
-     #linkSaibaMais {
-         margin-top: 25px;
-     }
-     
-     footer {
-         height: 170px;
-         background-color: #1C1C1C;
-         text-align: center;
-     }
-     
-     footer>p {
-         color: gainsboro;
-         padding: 10px;
-         font-size: 20px;
-     }
-     
-     .linkfooter {
-         color: gainsboro;
-     }
-     
-     #botao {
-         margin-top: 20px;
-         background-color: #191970;
-         border: 15px solid #191970;
-         border-radius: 5px;
-         text-align: center;
-         margin-bottom: 20px;
-     }
-     
-     #estilobotao {
-         color: lavenderblush;
-     }
-     
-     #botao>a:hover {
-         color: #0000FF;
-     }
-     /* Estilo Página Sobre*/
-     
-     #dadospessoais {
-         margin-top: 20px;
-         margin-bottom: 20px;
-         text-align: center;
-         width: 100%;
-         height: auto;
-         font-size: 20px;
-     }
-     
-     #boxFotoPerfil {
-         position: relative;
-         width: 100%;
-         height: 200px;
-     }
-     
-     .imgPerfil {
-         border-radius: 100px;
-         width: 200px;
-         height: auto;
-         position: absolute;
-         margin-left: 50%;
-         transform: translate(-50%, -50%);
-         top: 50%;
-     }
-     
-     #profAtual {
-         margin-top: ;
-     }
-     
-     table {
-         width: 100%;
-     }
-     
-     #descricao {
-         margin-top: 20px;
-         text-align: center;
-     }
-     
-     #descricao>p {
-         font-size: 25px;
-     }
-     
-     #profAtual {
-         margin-bottom: 20px;
-     }
-     
-     #boxTxtSobre {
-         text-align: left;
-         padding: 5px;
-     }
-     
-     #boxTxtSobre>p {
-         padding: 10px;
-     }
+         /*Início Efeito nav*/
+         
+         a:hover {
+             color: #0000FF;
+             text-decoration: none;
+         }
+         /*Fim Efeito nav*/
+         
+         .logotipo {
+             text-align: center;
+             background-color: #1C1C1C;
+             color: floralwhite;
+         }
+         
+         #logo {
+             margin-top: 10px;
+             width: 200px;
+             height: 70px;
+             margin-left: auto;
+             margin-right: auto;
+             margin-bottom: 7px;
+         }
+         
+         .container {
+             position: relative;
+             width: 100%;
+             height: auto;
+             background-color: brown;
+         }
+         
+         .bannerHome {
+             border-radius: 5px;
+             width: 100%;
+             height: auto;
+             position: absolute;
+             top: 50%;
+         }
+         
+         .containerNav {
+             font-size: 15px;
+             font-weight: bold;
+             text-align: center;
+             margin-bottom: 20px;
+         }
+         
+         li {
+             display: inline;
+             margin-left: 15px;
+         }
+         
+         .hr {
+             margin-top: 10px;
+             margin-left: 10%;
+             margin-right: 10%;
+             margin-bottom: 20px;
+         }
+         
+         .titulosH1home {
+             text-align: center;
+             margin-top: 55%;
+             margin-bottom: px;
+         }
+         
+         .titulosH1 {
+             text-align: center;
+             margin-top: 15px;
+             margin-bottom: 15px;
+         }
+         
+         #txtHome {
+             text-align: justify;
+             font-size: 20px;
+             margin-left: 10%;
+             margin-right: 10%;
+             margin-top: 30px;
+         }
+         
+         .ptxtHome {
+             margin-top: 15px;
+         }
+         
+         #linkSaibaMais {
+             text-decoration: underline;
+             text-align: right;
+             margin-top: 10px;
+             margin-bottom: 10px;
+         }
+         
+         h1,
+         h2,
+         p {
+             color: #191970;
+         }
+         
+         a {
+             text-decoration: none;
+         }
+         
+         .tbimg {
+             width: 370px;
+             height: 204px;
+             margin-left: 5px;
+             border-radius: 5px;
+         }
+         
+         table {
+             margin-top: 30px;
+         }
+         
+         #linkSaibaMais {
+             margin-top: 25px;
+         }
+         
+         footer {
+             height: 170px;
+             background-color: #1C1C1C;
+             text-align: center;
+         }
+         
+         footer>p {
+             color: gainsboro;
+             padding: 10px;
+             font-size: 20px;
+         }
+         
+         .linkfooter {
+             color: gainsboro;
+         }
+         
+         #botao {
+             margin-top: 20px;
+             background-color: #191970;
+             border: 15px solid #191970;
+             border-radius: 5px;
+             text-align: center;
+             margin-bottom: 20px;
+         }
+         
+         #estilobotao {
+             color: lavenderblush;
+         }
+         
+         #botao>a:hover {
+             color: #0000FF;
+         }
+         /* Estilo Página Sobre*/
+         
+         #dadospessoais {
+             margin-top: 20px;
+             margin-bottom: 20px;
+             text-align: center;
+             width: 100%;
+             height: auto;
+             font-size: 20px;
+         }
+         
+         #boxFotoPerfil {
+             position: relative;
+             width: 100%;
+             height: 200px;
+         }
+         
+         .imgPerfil {
+             border-radius: 100px;
+             width: 200px;
+             height: auto;
+             position: absolute;
+             margin-left: 50%;
+             transform: translate(-50%, -50%);
+             top: 50%;
+         }
+         
+         #profAtual {
+             margin-top: ;
+         }
+         
+         #descricao {
+             margin-top: 20px;
+             text-align: center;
+         }
+         
+         #descricao>p {
+             font-size: 25px;
+         }
+         
+         #profAtual {
+             margin-bottom: 20px;
+         }
+         
+         #boxTxtSobre {
+             text-align: left;
+             padding: 5px;
+         }
+         
+         #boxTxtSobre>p {
+             padding: 10px;
+         }
+         /* Estilo Página Histórico Profissional*/
+         
+         .boxlinkEmpresas {
+             text-align: justify;
+             margin-bottom: 50px;
+         }
+         
+         .linkAcessoRapido {
+             color: #191970;
+         }
+         
+         .titulo {
+             font-size: 20px;
+         }
+         
+         fs #txtcontainer {
+             text-align: justify;
+             padding: 10px;
+         }
+         
+         #txtcontainer>p {
+             margin-top: 15px;
+             font-size: 20px;
+             text-align: justify;
+         }
+         
+         .titDescricao {
+             margin-top: 10px;
+             margin-bottom: 10px;
+         }
+         
+         .titDescricao>h2 {
+             text-align: 5px;
+         }
