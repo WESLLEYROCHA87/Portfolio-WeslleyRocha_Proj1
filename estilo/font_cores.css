@@ -21,12 +21,19 @@
          margin-bottom: 7px;
      }
      
+     .container {
+         position: relative;
+         width: 100%;
+         height: auto;
+         background-color: brown;
+     }
+     
      .bannerHome {
-         margin-top: 10px;
-         margin-bottom: 0px;
          border-radius: 5px;
          width: 100%;
          height: auto;
+         position: absolute;
+         top: 50%;
      }
      
      .containerNav {
@@ -45,6 +52,13 @@
          margin-top: 10px;
          margin-left: 10%;
          margin-right: 10%;
+         margin-bottom: 20px;
+     }
+     
+     .titulosH1home {
+         text-align: center;
+         margin-top: 55%;
+         margin-bottom: px;
      }
      
      .titulosH1 {
@@ -55,9 +69,10 @@
      
      #txtHome {
          text-align: justify;
-         font-size: 18px;
+         font-size: 20px;
          margin-left: 10%;
          margin-right: 10%;
+         margin-top: 30px;
      }
      
      .ptxtHome {
@@ -105,6 +120,7 @@
      footer>p {
          color: gainsboro;
          padding: 10px;
+         font-size: 20px;
      }
      
      .linkfooter {
@@ -112,12 +128,12 @@
      }
      
      #botao {
-         margin-top: 30px;
-         margin-left: 400px;
+         margin-top: 20px;
          background-color: #191970;
          border: 15px solid #191970;
          border-radius: 5px;
          text-align: center;
+         margin-bottom: 20px;
      }
      
      #estilobotao {
@@ -139,21 +155,23 @@
      }
      
      #boxFotoPerfil {
-         width: 940px;
-         align-content: center;
+         position: relative;
+         width: 100%;
+         height: 200px;
      }
      
      .imgPerfil {
-         margin-top: 10px;
-         margin-bottom: 0px;
          border-radius: 100px;
+         width: 200px;
          height: auto;
-         width: 20%;
-         margin-left: 35%;
+         position: absolute;
+         margin-left: 50%;
+         transform: translate(-50%, -50%);
+         top: 50%;
      }
      
      #profAtual {
-         margin-top: 10px;
+         margin-top: ;
      }
      
      table {
