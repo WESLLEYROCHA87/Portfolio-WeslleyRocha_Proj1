@@ -229,3 +229,9 @@
          .titDescricao>h2 {
              text-align: 5px;
          }
+         /* Estilo Página Contato*/
+         
+         .boxTxtContato {
+             padding: 20px;
+             text-align: center;
+         }
